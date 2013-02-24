@@ -47,7 +47,7 @@ namespace BitManip.Tests
 
         /* GetNumberFromBitRange does a left shift and then a right shift.
            The first left shift will shift by 8 - (start + length)
-           The second riht shift will shift by 8 - length.
+           The second right shift will shift by 8 - length.
            When it shifts, the byte is converted to an Int32.
            Shifting a 32bit number by a shift count will derive the real shift count from the first 5bits.
            For example:
